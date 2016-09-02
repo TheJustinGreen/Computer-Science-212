@@ -1,8 +1,9 @@
 public class DPFib{
 
 	/*
-		 * Recursive Fibonacci Algorithm Complexity
+		 * DP Fibonacci Algorithm Complexity
 		 * 
+		 * Dynamic programming and memoization
 		 * Time Complexity: O(n)
 		 * Extra Space: O(n)
 		 * 
