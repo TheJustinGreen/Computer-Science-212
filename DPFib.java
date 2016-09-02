@@ -3,7 +3,7 @@ public class DPFib{
 	/*
 		 * DP Fibonacci Algorithm Complexity
 		 * 
-		 * Dynamic programming and memoization
+		 * Dynamic programming bottom-up
 		 * Time Complexity: O(n)
 		 * Extra Space: O(n)
 		 * 
