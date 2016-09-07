@@ -10,7 +10,7 @@ public class Knapsack {
 	 * 
 	 * 
 	 */
-	    public int bottomUpDP(int val[], int wt[], int W)
+	    public int bottomUpDPKnapsack(int val[], int wt[], int W)
 	    {
 	        int K[][] = new int[wt.length+1][W+1];
 	        
@@ -24,15 +24,14 @@ public class Knapsack {
 
 	    public static void main(String args[]){
 
-	        Knapsack k = new Knapsack();
-
+	        Knapsack run = new Knapsack();
+		
+		//value of weights
 	        int val[] = {22, 20, 15, 30, 24, 54, 21, 32, 18, 25};
-
+		//weights
 	        int wt[] = {4, 2, 3, 5, 5, 6, 9, 7, 8, 10};
-
-	        int r = k.bottomUpDP(val, wt, 30);
-	    
-	        System.out.println(r);
+	         
+	    	System.out.println(run.bottomUpDPKnapsack(val, wt, 30));
 
 	    }
 }
