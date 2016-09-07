@@ -2,7 +2,7 @@
  *Recursive Fibonacci with memoization
  *
  * The time complexity of this algorithm is 0(n)
- * since recusrsive calls count as O(1) with memoization
+ * since recursive calls count as O(1) with memoization
  * 
  * 
  */
